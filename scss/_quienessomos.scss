@@ -1,0 +1,30 @@
+/* estilo Quiénes somos */
+main {
+    .nosotros {
+        @include boxprincipal(wrap,3m 15%); //uso de mixin
+    }
+
+    .nosotros__texto {
+       @extend .nosotros__video; //uso de extend
+        font-family: $fuente_parrafos;
+        font-size: 14px;
+        color: $color-fuente;
+    }
+
+    .nosotros__img {
+		width: 100%;
+		height: ($height_img)-60;  //resta de una variable
+		@extend .nosotros__video; //uso de extend
+    }
+
+    .nosotros__video { //clase que define el extend
+        margin: 1em;
+        padding: 2em;
+    }
+    
+}
+
+
+
+
+

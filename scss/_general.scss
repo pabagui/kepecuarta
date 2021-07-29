@@ -1,0 +1,19 @@
+/* estilo general */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background:
+	linear-gradient(to top, $bg-color_claro,$bg-color_oscuro);
+}
+
+h2 {
+	color: $color_kepe;
+	font-family: $fuente_titulos;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
