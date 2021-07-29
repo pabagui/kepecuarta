@@ -16,20 +16,18 @@ header {
         margin-bottom: 1rem;
     }
 
-    .rrss {
-        width: 50px;
-        height: 30px;
-        margin-top: 2rem;
+    i {
+        color: $color-fuente;
+        margin-top: 4rem;
         margin-bottom: 1rem;
     }
-     
+
     .menu {
         background-color: $color_kepe;
         height: auto;
     }
-           
+     
     .menu__efectos {
-        border-radius: 10px;
         font-family: $fuente_parrafos;
         color: $color-fuente;
         font-size: 22px;
