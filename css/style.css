@@ -209,12 +209,13 @@ main .nosotros__video, main .nosotros__texto, main .nosotros__img {
 }
 
 /* estilo Contacto */
-main .contacto {
+main .container {
   background: #E64D19;
-  margin: 3m 15%;
+  margin: 3em 15%;
   height: auto;
   width: auto;
-  padding: 2em;
+  padding: 1rem;
+  margin-bottom: 7rem;
 }
 main .contacto__formulario {
   font-family: "Josefin Sans", sans-serif;
@@ -222,6 +223,9 @@ main .contacto__formulario {
   color: #ffebcd;
   padding: 0.5em;
   margin: 0.5em;
+}
+main button {
+  margin: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

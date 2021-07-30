@@ -1,9 +1,12 @@
 /* estilo Contacto */
+// .contacto {@include boxprincipal(nowrap,3m 15%);padding: 2em;}
+
 main {
 
-    .contacto {
-        @include boxprincipal(nowrap,3m 15%);
-        padding: 2em;
+    .container {
+        @include boxprincipal(nowrap,3em 15%);
+        padding: 1rem;
+        margin-bottom: 7rem;
     }
 
     .contacto__formulario {
@@ -14,6 +17,9 @@ main {
         margin: 0.5em;
     }
     
+    button {
+        margin: 0.5rem;
+    }
 }
 
 
