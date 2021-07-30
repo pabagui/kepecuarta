@@ -18,6 +18,10 @@ h2 {
   margin-bottom: 1em;
 }
 
+header .container-fluid {
+  margin: 0;
+  width: 100%;
+}
 header .logo {
   width: 100px;
   height: 120px;
@@ -30,6 +34,21 @@ header h1 {
   font-size: 55px;
   margin-top: 2rem;
   margin-bottom: 1rem;
+}
+header .rrss-1 {
+  position: relative;
+  left: 12%;
+  padding: 1em;
+}
+header .rrss-2 {
+  position: relative;
+  left: 7%;
+  padding: 1em;
+}
+header .rrss-3 {
+  position: relative;
+  left: 1%;
+  padding: 1em;
 }
 header i {
   color: #ffebcd;

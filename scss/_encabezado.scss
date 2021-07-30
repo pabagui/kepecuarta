@@ -1,5 +1,10 @@
    
 header {
+
+    .container-fluid {
+        margin: 0;
+        width: 100%
+    }
     
     .logo {
         width: 100px;
@@ -14,6 +19,24 @@ header {
         font-size: 55px;
         margin-top: 2rem;
         margin-bottom: 1rem;
+    }
+
+    .rrss-1 {
+        position: relative;
+        left: 12%;
+        padding: 1em;
+    }
+
+    .rrss-2 {
+        position: relative;
+        left: 7%;
+        padding: 1em;
+    }
+
+    .rrss-3 {
+        position: relative;
+        left: 1%;
+        padding: 1em;
     }
 
     i {
