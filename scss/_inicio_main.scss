@@ -1,10 +1,16 @@
 /* estilo Home  */
+
+//main {.inicio {@include boxprincipal(wrap,3m 25%);padding: 16px;} 
+
 main {
 
-    .inicio {
-        @include boxprincipal(wrap,3m 25%);
-        padding: 16px;
+    .container {
+        @include boxprincipal(wrap,3rem 20%);
+        padding: 1rem;
+
     }
+
+    
 
     .inicio__img {
         margin: auto;
@@ -23,8 +29,9 @@ main {
     }
     
     img {
-        height: 100px;
-        width: 100px;
+        height: auto;
+        width: auto;
+        padding: 1rem;
     }
     .inicio__texto {
         font-family: $fuente_parrafos;

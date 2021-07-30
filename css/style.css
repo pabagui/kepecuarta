@@ -90,16 +90,12 @@ footer .pieDePagina__texto {
 }
 
 /* estilo Home  */
-main .inicio {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+main .container {
   background: #E64D19;
-  margin: 3m 25%;
+  margin: 3rem 20%;
   height: auto;
-  width: 90%;
-  padding: 16px;
+  width: auto;
+  padding: 1rem;
 }
 main .inicio__img {
   margin: auto;
@@ -118,8 +114,9 @@ main .inicio__img {
   }
 }
 main img {
-  height: 100px;
-  width: 100px;
+  height: auto;
+  width: auto;
+  padding: 1rem;
 }
 main .inicio__texto {
   font-family: "Josefin Sans", sans-serif;
@@ -132,14 +129,10 @@ main .inicio__texto {
 
 /* estilo Productos  */
 main .productos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
   background: #E64D19;
   margin: 3m 15%;
   height: auto;
-  width: 90%;
+  width: auto;
 }
 main .card {
   background: #F7D27E;
@@ -170,14 +163,10 @@ main .productos__texto {
 
 /* estilo Tiendas  */
 main .tiendas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
   background: #E64D19;
   margin: 3m 15%;
   height: auto;
-  width: 90%;
+  width: auto;
 }
 main h3 {
   font-size: 22px;
@@ -200,14 +189,10 @@ main .tiendas__texto {
 
 /* estilo Quiénes somos */
 main .nosotros {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
   background: #E64D19;
   margin: 3m 15%;
   height: auto;
-  width: 90%;
+  width: auto;
 }
 main .nosotros__texto {
   font-family: "Josefin Sans", sans-serif;
@@ -225,14 +210,10 @@ main .nosotros__video, main .nosotros__texto, main .nosotros__img {
 
 /* estilo Contacto */
 main .contacto {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
   background: #E64D19;
   margin: 3m 15%;
   height: auto;
-  width: 90%;
+  width: auto;
   padding: 2em;
 }
 main .contacto__formulario {
