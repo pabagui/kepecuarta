@@ -1,8 +1,14 @@
 /* estilo Quiénes somos */
 main {
-    .nosotros {
-        @include boxprincipal(wrap,3m 15%); //uso de mixin
+
+    .container-fluid {
+        @include boxprincipal(wrap,3rem 15%);
+        padding: 0;
+        margin-bottom: 7rem;
     }
+
+
+    //.nosotros {@include boxprincipal(wrap,3rem 15%);
 
     .nosotros__texto {
        @extend .nosotros__video; //uso de extend

@@ -1,10 +1,7 @@
 /* estilo Productos  */
 
 main {
-      .productos {
-        @include boxprincipal(wrap,3m 15%);
-      }
-
+      //.productos {@include boxprincipal(wrap,3rem 5%);padding: 0.5rem;}
     .card {
 		background: $bg-color_claro;
 		margin: 0.5rem;
@@ -13,6 +10,7 @@ main {
     .productos__img {
         width: 100%;
         height: $height_img;
+        max-height: 191px; //parche de tamaño para card
 
         &:hover {	
             transform: scale(1.2,1.2);

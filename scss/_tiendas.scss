@@ -2,7 +2,7 @@
 main {
 
     .tiendas {
-        @include boxprincipal(wrap,3m 15%);
+        @include boxprincipal(wrap,3rem 15%);
     }
 
     h3 {

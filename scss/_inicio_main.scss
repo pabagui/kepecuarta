@@ -5,8 +5,9 @@
 main {
 
     .container {
-        @include boxprincipal(wrap,3rem 20%);
+        @include boxprincipal(wrap,3rem 15%);
         padding: 1rem;
+        margin-bottom: 7rem;
 
     }
 
